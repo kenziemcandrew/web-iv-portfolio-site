@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/*--------------------------------------------------------------
+
+>>> TABLE OF CONTENTS:
+
+----------------------------------------------------------------
+
+1.0 - Typography
+
+1.3 - Colors
+
+1.5 - Tables 
+
+1.6 - Forms 
+
+2.0 - Navigation Menus
+
+2.1 - Footer
+
+3.1 - Site Structure
+
+
+--------------------------------------------------------------*/
+
+
+
+/* 1.6 Forms */
+
+input, label, textarea {
+	display: block;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 18px;
+}
+
+
+/* 2.0 Navigation */ 
+
+nav li {
+	display: inline-block;
+	margin-right: 30px;
+
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #878384;
+}
+
+
+nav a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+/* 2.1 Footer */
+
+footer {
+	background-color: #dfb093;
+
+}
+
+
+
+/* 3.1 Site Structure */
+
+.row {
+	overflow: auto; 
+}
+
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+}
+
+#feya p {
+	width: 430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
