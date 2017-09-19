@@ -4,18 +4,22 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <title>assignment 5</title>
 </head>
 
 <body>
 
-<header id="bg-home" class="wrapper">
+<header class="wrapper">
     <div class="row">
-          <nav>  
-            <h1 class="f-left">     
+          <div class="f-left">  
+            <h2>     
               <a href="index.html"><img src="img/logo.png" alt="KR logo"/></a>
-            </h1>
-                <ul class="f-right">
+            </h2>
+          </div>
+
+          <nav class="f-right">
+                <ul>
                    <li><a href="index.html">Home</a></li>
                    <li><a href="about.html">About</a></li>
                    <li><a href="work.html">Work</a></li>
@@ -27,19 +31,25 @@
 
 </header>
 
-<section>
+<section class="wrapper" id="contact">
   <header>
-    <h2>Say hi</h2>
+    <h1>Say hi</h1>
   </header>
     <p>Inquire for a shoot or design work here - or just say hi.</p>
-</section>
+
 
 <form>
-  <label>First Name</label>
-    <input type="text" name="firstname" id="f-name">
+  <div class="row">
+    <div class="f-left">
+      <label>First Name</label>
+        <input type="text" name="firstname" id="f-name">
+    </div>    
 
-  <label>Last Name</label>
-    <input type="text" name="lastname" id="l-name">    
+    <div class="f-right">
+      <label>Last Name</label>
+        <input type="text" name="lastname" id="l-name">  
+    </div>      
+  </div>
 
   <label for="email">Email</label>
     <input type="email" name="email" id="email">
@@ -48,21 +58,22 @@
   <textarea id="describe" cols="80" rows="6"></textarea>
 
   <label>How'd you hear of me?</label>
-    <input type="text" name="hear"> 
+    <input type="hear" name="hear"> 
 
   <label for="funfact">What is the coolest thing you've ever done?</label>
   <textarea id="funfact" cols="80" rows="6"></textarea>
 
 <p><a href="#submit" class="btn">Submit</a></p>
 
+</form>
+</section>
 
+<footer>
 
-<footer class="wrapper">
-  <div class="bg-pink">
-    <div class="row">
+  <div class="row wrapper"> 
   
       <div class="f-left">
-        <p>design, code, and photography by Kenzie Ross</p>
+        <p>&copy; design, code, and photography by Kenzie Ross</p>
       </div>
 
       <section class="f-right">
@@ -79,8 +90,8 @@
               
         </ul>
       </section>
-    </div>  
-  </div>
+        
+    </div>
   
 </footer>
 
