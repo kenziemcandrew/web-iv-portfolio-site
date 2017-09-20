@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <title>assignment 5</title>
 </head>
 
@@ -13,9 +13,9 @@
 <header class="wrapper">
     <div class="row">
           <div class="f-left">  
-            <h2>     
+            <div>     
               <a href="index.html"><img src="img/logo.png" alt="KR logo"/></a>
-            </h2>
+            </div>
           </div>
 
           <nav class="f-right">
@@ -41,12 +41,12 @@
 <form>
   <div class="row">
     <div class="f-left">
-      <label>First Name</label>
+      <label for="f-name">First Name</label>
         <input type="text" name="firstname" id="f-name">
     </div>    
 
     <div class="f-right">
-      <label>Last Name</label>
+      <label for="l-name">Last Name</label>
         <input type="text" name="lastname" id="l-name">  
     </div>      
   </div>
@@ -55,10 +55,10 @@
     <input type="email" name="email" id="email">
     
   <label for="describe">Project Description</label>
-  <textarea id="describe" cols="80" rows="6"></textarea>
+  <textarea name="describe" id="describe" cols="80" rows="6"></textarea>
 
-  <label>How'd you hear of me?</label>
-    <input type="hear" name="hear"> 
+  <label for="hear">How'd you hear of me?</label>
+    <input type="text" name="hear" id="hear"> 
 
   <label for="funfact">What is the coolest thing you've ever done?</label>
   <textarea id="funfact" cols="80" rows="6"></textarea>
@@ -76,7 +76,7 @@
         <p>&copy; design, code, and photography by Kenzie Ross</p>
       </div>
 
-      <section class="f-right">
+      <div class="f-right">
         <ul>
           <li><a href="http://instagram.com" target="_blank"></a>
                 <span>instagram</span></li>
@@ -89,7 +89,7 @@
 
               
         </ul>
-      </section>
+      </div>
         
     </div>
   
